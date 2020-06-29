@@ -25,7 +25,7 @@ print("Total = ", total, "out of 175")
 
 if total>=149:
     print(name+" passed ICT with distinction")
-elif total>=87:
+elif total>=105:
     print(name+" passed ICT")
 else:
     print(name+" failed ICT")
