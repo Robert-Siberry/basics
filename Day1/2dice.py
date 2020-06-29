@@ -5,4 +5,4 @@ number2=random.randint(1,6)
 
 total=number+number2
 
-print(number)
+print(total)
