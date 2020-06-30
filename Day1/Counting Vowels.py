@@ -8,7 +8,7 @@ for vowel in "aeiou":                        # start for loop to compare each le
                                             #count each vowel in the input
     vc[vowel] =count
 
-counts=vc.values()                          #set up variable for adding up the number of variables
+counts=vc.values()                          #set up variable for adding up the number of vowels
 
 tv=sum(counts)                              #add up the number of vowles
 
