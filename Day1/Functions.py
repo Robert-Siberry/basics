@@ -23,9 +23,15 @@ total=hw+a+fe
 
 print("Total = ", total, "out of 175")
 
-if total>=149:
-    print(name+" passed ICT with distinction")
-elif total>=105:
-    print(name+" passed ICT")
-else:
-    print(name+" failed ICT")
+if total>=160:
+    print(name+" received an A in ICT")
+elif total>=140:
+    print(name+" received a B in ICT")
+elif total>=120:
+    print(name+" received a C in ICT")
+elif total>=100:
+    print(name+" received a D in ICT")
+elif total>=80:
+    print(name+" received a E in ICT")
+elif total<80:
+    print(name+" received a F in ICT")
