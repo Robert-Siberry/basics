@@ -6,14 +6,15 @@ for i in range(5):
 
 f.close()
 
-f=open("teams.txt")
-lines=f.readlines()
-print(lines[0])
-print(lines[2])
+f=open("teams.txt", "r")
 
-#if f.mode == 'r':
-    #contents =f.read()
-   #print(contents)
+#lines=f.readlines()
+#print(lines[0])
+#print(lines[2])
+
+if f.mode == 'r':
+    contents =f.read()
+    print(contents)
 
 
-
+f.close()
