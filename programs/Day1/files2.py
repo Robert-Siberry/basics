@@ -10,9 +10,8 @@ f=open("textfile.txt", "r")
 
 
 if f.mode == 'r':
-    contents = f.read()
+    contents =f.read()
     print(contents)
-
 
 #f=open("textfile.txt")
 #lines=f.readlines()
